@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c72dccd8-ce1e-4ea9-b46d-9bf0dce3f808" name="Default Changelist" comment="" />
+    <list default="true" id="c72dccd8-ce1e-4ea9-b46d-9bf0dce3f808" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/scripts/collect_odds_pure_recursion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/helper_method_recursion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/power.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,15 +22,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1u5GjlcVJoSqfSeopxxpiyhYZud" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -37,11 +49,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.min_Sub_Array_Len.js">
-    <configuration name="count_unique_values.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/count_unique_values.js" working-dir="$PROJECT_DIR$/assets/scripts">
+  <component name="RunManager" selected="Node.js.power.js">
+    <configuration name="collect_odds_pure_recursion.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/collect_odds_pure_recursion.js" working-dir="$PROJECT_DIR$/assets/scripts">
       <method v="2" />
     </configuration>
     <configuration name="min_Sub_Array_Len.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/min_Sub_Array_Len.js" working-dir="$PROJECT_DIR$/assets/scripts">
+      <method v="2" />
+    </configuration>
+    <configuration name="power.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/power.js" working-dir="$PROJECT_DIR$/assets/scripts">
       <method v="2" />
     </configuration>
     <configuration name="same_frequency.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/same_frequency.js" working-dir="$PROJECT_DIR$/assets/scripts">
@@ -50,16 +65,13 @@
     <configuration name="slidding_window.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/slidding_window.js" working-dir="$PROJECT_DIR$/assets/scripts">
       <method v="2" />
     </configuration>
-    <configuration name="sum_zero.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/sum_zero.js" working-dir="$PROJECT_DIR$/assets/scripts">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.power.js" />
+        <item itemvalue="Node.js.collect_odds_pure_recursion.js" />
         <item itemvalue="Node.js.min_Sub_Array_Len.js" />
         <item itemvalue="Node.js.same_frequency.js" />
         <item itemvalue="Node.js.slidding_window.js" />
-        <item itemvalue="Node.js.count_unique_values.js" />
-        <item itemvalue="Node.js.sum_zero.js" />
       </list>
     </recent_temporary>
   </component>
@@ -76,11 +88,25 @@
       <workItem from="1624975772785" duration="656000" />
       <workItem from="1624977111981" duration="2902000" />
       <workItem from="1640198881113" duration="13064000" />
-      <workItem from="1640260610892" duration="12258000" />
+      <workItem from="1640260610892" duration="23392000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
