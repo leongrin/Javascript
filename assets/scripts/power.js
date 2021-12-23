@@ -323,7 +323,7 @@ console.log(capitalizeWords(words)); // ['I', 'AM', 'LEARNING', 'RECURSION']*/
 
 
 
-function stringifyNumbers(obj) {
+/**/function stringifyNumbers(obj) {
 
     let newObj = {};
 
@@ -331,10 +331,10 @@ function stringifyNumbers(obj) {
         for (let key in obj) {
             if (typeof obj[key] === 'number') {
                 newObj[key] = obj[key].toString();
-            } else if (typeof obj[key] !== 'object') {
-                newObj[key] = obj[key];
+            } else if (typeof obj[key] === 'object' && !Array.isArray(obj[key])) {
+                newObj[key] = stringifyNumbers(obj[key]);
             } else {
-                newObj[key] = helper(obj[key]);
+                newObj[key] = obj[key];
             }
         }
     }
@@ -343,6 +343,22 @@ function stringifyNumbers(obj) {
 
     return newObj;
 }
+
+
+
+/*function stringifyNumbers(obj) {
+    let newObj = {};
+    for (let key in obj) {
+        if (typeof obj[key] === 'number') {
+            newObj[key] = obj[key].toString();
+        } else if (typeof obj[key] === 'object' && !Array.isArray(obj[key])) {
+            newObj[key] = stringifyNumbers(obj[key]);
+        } else {
+            newObj[key] = obj[key];
+        }
+    }
+    return newObj;
+}*/
 
 
 
@@ -372,6 +388,64 @@ console.log(stringifyNumbers(obj));
         }
     }
 }*/
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/*function collectStrings(obj) {
+
+    let newArray = [];
+
+    function helper(obj) {
+        for (let key in obj) {
+            if (typeof obj[key] === 'string') {
+                newArray.push(obj[key])
+            } else if (typeof obj[key] === 'object') {
+                helper(obj[key])
+            }
+        }
+
+    }
+
+    helper(obj);
+
+    return newArray;
+}
+
+
+const obj = {
+    stuff: "foo",
+    data: {
+        val: {
+            thing: {
+                info: "bar",
+                moreInfo: {
+                    evenMoreInfo: {
+                        weMadeIt: "baz"
+                    }
+                }
+            }
+        }
+    }
+}
+
+console.log(collectStrings(obj));*/ // ["foo", "bar", "baz"])
+
+
+
+
+
+
+
+
+
+
 
 
 
