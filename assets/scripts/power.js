@@ -323,7 +323,7 @@ console.log(capitalizeWords(words)); // ['I', 'AM', 'LEARNING', 'RECURSION']*/
 
 
 
-/**/function stringifyNumbers(obj) {
+/*function stringifyNumbers(obj) {
 
     let newObj = {};
 
@@ -342,7 +342,7 @@ console.log(capitalizeWords(words)); // ['I', 'AM', 'LEARNING', 'RECURSION']*/
     helper(obj);
 
     return newObj;
-}
+}*/
 
 
 
@@ -362,7 +362,7 @@ console.log(capitalizeWords(words)); // ['I', 'AM', 'LEARNING', 'RECURSION']*/
 
 
 
-let obj = {
+/*let obj = {
     num: 1,
     test: [],
     data: {
@@ -375,7 +375,7 @@ let obj = {
 }
 
 
-console.log(stringifyNumbers(obj));
+console.log(stringifyNumbers(obj));*/
 
 /*{
     num: "1",
@@ -439,6 +439,30 @@ console.log(collectStrings(obj));*/ // ["foo", "bar", "baz"])
 
 
 
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+function linearSearch(arr, num){
+    let result;
+    arr.forEach((item, index) => {
+        if (item === num) {
+            result = index;
+        }
+    });
+    return  result === 0 ? 0 : result ? result : -1;
+}
+
+console.log(linearSearch([9, 8, 7, 6, 5, 4, 3, 2, 1, 0], 10));
+
+console.log(linearSearch([10, 15, 20, 25, 30], 15));
+
+console.log(linearSearch([100], 100));
 
 
 
