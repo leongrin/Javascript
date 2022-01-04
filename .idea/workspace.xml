@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72dccd8-ce1e-4ea9-b46d-9bf0dce3f808" name="Default Changelist" comment="updates">
+      <change afterPath="$PROJECT_DIR$/assets/scripts/binary_search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/binary_search_my_solution.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/power.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/power.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.power.js">
+  <component name="RunManager" selected="Node.js.binary_search_teacher.js">
+    <configuration name="binary_search_my_solution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/binary_search_my_solution.js" working-dir="$PROJECT_DIR$/assets/scripts">
+      <method v="2" />
+    </configuration>
+    <configuration name="binary_search_teacher.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/binary_search_teacher.js" working-dir="$PROJECT_DIR$/assets/scripts">
+      <method v="2" />
+    </configuration>
     <configuration name="collect_odds_pure_recursion.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/collect_odds_pure_recursion.js" working-dir="$PROJECT_DIR$/assets/scripts">
       <method v="2" />
     </configuration>
@@ -57,19 +64,13 @@
     <configuration name="power.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/power.js" working-dir="$PROJECT_DIR$/assets/scripts">
       <method v="2" />
     </configuration>
-    <configuration name="same_frequency.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/same_frequency.js" working-dir="$PROJECT_DIR$/assets/scripts">
-      <method v="2" />
-    </configuration>
-    <configuration name="slidding_window.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/slidding_window.js" working-dir="$PROJECT_DIR$/assets/scripts">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.binary_search_teacher.js" />
+        <item itemvalue="Node.js.binary_search_my_solution.js" />
         <item itemvalue="Node.js.power.js" />
         <item itemvalue="Node.js.collect_odds_pure_recursion.js" />
         <item itemvalue="Node.js.min_Sub_Array_Len.js" />
-        <item itemvalue="Node.js.same_frequency.js" />
-        <item itemvalue="Node.js.slidding_window.js" />
       </list>
     </recent_temporary>
   </component>
@@ -88,6 +89,7 @@
       <workItem from="1640198881113" duration="13064000" />
       <workItem from="1640260610892" duration="26510000" />
       <workItem from="1640358647695" duration="1741000" />
+      <workItem from="1641319587776" duration="5789000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1640288077467</created>
@@ -110,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640358664573</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updates">
+      <created>1641319801324</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641319801324</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
