@@ -18,7 +18,7 @@
 }*/
 
 // Refactored Version
-function binarySearch(arr, elem) {
+/*function binarySearch(arr, elem) {
     let start = 0;
     let end = arr.length - 1;
     let middle = Math.floor((start + end) / 2);
@@ -32,4 +32,52 @@ function binarySearch(arr, elem) {
     return arr[middle] === elem ? middle : -1;
 }
 
-console.log(binarySearch([5, 6, 10, 13, 14, 18, 30, 34, 35, 37, 40, 44, 64, 79, 84, 86, 95, 96, 98, 99], 95));
+console.log(binarySearch([5, 6, 10, 13, 14, 18, 30, 34, 35, 37, 40, 44, 64, 79, 84, 86, 95, 96, 98, 99], 95));*/
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+/*function naiveSearch(long, short) {
+
+    let count = 0;
+
+    [...long].forEach((longItem, index) => {
+
+        for(let i = 0; i < short.length; i++) {
+
+            if (short[i] !== long[index + i]) break;
+
+            if (i === short.length - 1) count++;
+        }
+    })
+
+    return count;
+
+}
+
+console.log(naiveSearch('lorie loled', 'lo'));*/
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Sort my string length
+
+const str = ['ab', 'abc', 'a', 'dsadfsdad'];
+
+const sortedStr = str.sort((a, b) => a.length - b.length);
+
+
+console.log(sortedStr);
+
+
+
+
+
