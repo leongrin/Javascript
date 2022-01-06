@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72dccd8-ce1e-4ea9-b46d-9bf0dce3f808" name="Default Changelist" comment="updates">
-      <change afterPath="$PROJECT_DIR$/assets/scripts/sort/merge_sorted_arrays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/sort/quicksort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/sort/radix_sort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/sort/radix_sort_teacher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/bubble_optimized.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/sort/bubble_optimized.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/bubble_sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/bubble_unoptimized.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/sort/bubble_unoptimized.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/insertion_sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/sort/insertion_sort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/selection_sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/sort/selection_sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/sort/radix_sort_teacher.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +94,7 @@
       <workItem from="1640358647695" duration="1741000" />
       <workItem from="1641319587776" duration="6782000" />
       <workItem from="1641386462280" duration="16324000" />
-      <workItem from="1641478170622" duration="13405000" />
+      <workItem from="1641478170622" duration="13735000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1640288077467</created>
@@ -147,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641401629553</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updates">
+      <created>1641502716116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641502716116</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
