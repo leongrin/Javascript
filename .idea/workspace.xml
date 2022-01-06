@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c72dccd8-ce1e-4ea9-b46d-9bf0dce3f808" name="Default Changelist" comment="updates">
-      <change afterPath="$PROJECT_DIR$/assets/scripts/bubble_optimized.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/bubble_sort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/bubble_unoptimized.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/selection_sort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/string_search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/sort/merge_sorted_arrays.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/sort/quicksort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/sort/radix_sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/sort/radix_sort_teacher.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/binary_search_teacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/binary_search_teacher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/bubble_optimized.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/sort/bubble_optimized.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/bubble_sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/bubble_unoptimized.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/sort/bubble_unoptimized.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/insertion_sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/sort/insertion_sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/selection_sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/sort/selection_sort.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/scripts/sort" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -52,29 +55,34 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.selection_sort.js">
-    <configuration name="binary_search_teacher.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/binary_search_teacher.js" working-dir="$PROJECT_DIR$/assets/scripts">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ceo\WebstormProjects\X-Courses\Javascript\assets\scripts\sort" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.radix_sort.js">
+    <configuration name="insertion_sort.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/sort/insertion_sort.js" working-dir="$PROJECT_DIR$/assets/scripts/sort">
       <method v="2" />
     </configuration>
-    <configuration name="bubble_optimized.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/bubble_optimized.js" working-dir="$PROJECT_DIR$/assets/scripts">
+    <configuration name="merge_sort.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/sort/merge_sort.js" working-dir="$PROJECT_DIR$/assets/scripts/sort">
       <method v="2" />
     </configuration>
-    <configuration name="bubble_unoptimized.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/bubble_unoptimized.js" working-dir="$PROJECT_DIR$/assets/scripts">
+    <configuration name="merge_sorted_arrays.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/sort/merge_sorted_arrays.js" working-dir="$PROJECT_DIR$/assets/scripts/sort">
       <method v="2" />
     </configuration>
-    <configuration name="selection_sort.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/selection_sort.js" working-dir="$PROJECT_DIR$/assets/scripts">
+    <configuration name="radix_sort.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/sort/radix_sort.js" working-dir="$PROJECT_DIR$/assets/scripts">
       <method v="2" />
     </configuration>
-    <configuration name="string_search.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/string_search.js" working-dir="$PROJECT_DIR$/assets/scripts">
+    <configuration name="radix_sort_teacher.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/scripts/sort/radix_sort_teacher.js" working-dir="$PROJECT_DIR$/assets/scripts/sort">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.selection_sort.js" />
-        <item itemvalue="Node.js.bubble_optimized.js" />
-        <item itemvalue="Node.js.bubble_unoptimized.js" />
-        <item itemvalue="Node.js.binary_search_teacher.js" />
-        <item itemvalue="Node.js.string_search.js" />
+        <item itemvalue="Node.js.radix_sort.js" />
+        <item itemvalue="Node.js.radix_sort_teacher.js" />
+        <item itemvalue="Node.js.merge_sorted_arrays.js" />
+        <item itemvalue="Node.js.merge_sort.js" />
+        <item itemvalue="Node.js.insertion_sort.js" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +102,8 @@
       <workItem from="1640260610892" duration="26510000" />
       <workItem from="1640358647695" duration="1741000" />
       <workItem from="1641319587776" duration="6782000" />
-      <workItem from="1641386462280" duration="12011000" />
+      <workItem from="1641386462280" duration="16324000" />
+      <workItem from="1641478170622" duration="13405000" />
     </task>
     <task id="LOCAL-00001" summary="updates">
       <created>1640288077467</created>
@@ -131,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641331225540</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updates">
+      <created>1641401629553</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641401629553</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
